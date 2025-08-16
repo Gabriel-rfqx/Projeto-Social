@@ -38,8 +38,9 @@ main{
 }
 #redes-sociais{
     text-align: right;
-    display: flex;
-    flex-direction: column;
+}
+#redes-sociais a{
+    width: 50px;
 }
 #redes-sociais img{
     margin: 10px;
