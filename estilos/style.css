@@ -35,5 +35,24 @@ main{
     width: 266px;
     right: -23px;
     top: 81px;
-   
+}
+#redes-sociais{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+#redes-sociais img{
+    margin: 10px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.623);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.39);
+ 
+}
+#redes-sociais img:hover{
+    border: 0.2px solid rgb(255, 255, 255);
+    transform: translate(-1px, 0.2px);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.705);
+    transition: transform 0.1s, border 0.1s;
 }
